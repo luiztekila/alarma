@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#123c2b">
+  <meta name="description" content="Biblioteca de PDF para escuchar en voz alta desde Android.">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Lector PDF Voz</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand-icon" aria-hidden="true">🔊</div>
+    <div>
+      <h1>Lector PDF Voz</h1>
+      <p>Tu biblioteca de lectura en voz alta</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="panel">
+      <div class="section-heading">
+        <div>
+          <h2>Biblioteca de documentos</h2>
+          <p class="muted">Elige un PDF para empezar a escucharlo.</p>
+        </div>
+        <button id="refreshBtn" class="button secondary" type="button">Actualizar lista</button>
+      </div>
+      <div id="status" class="status" role="status">Cargando biblioteca…</div>
+      <div id="library" class="library"></div>
+    </section>
+
+    <section class="panel reader-panel">
+      <div class="section-heading">
+        <div>
+          <h2 id="documentTitle">Selecciona un documento</h2>
+          <p id="documentInfo" class="muted">El contenido aparecerá aquí.</p>
+        </div>
+      </div>
+
+      <div class="controls">
+        <label class="field">
+          <span>Voz en español</span>
+          <select id="voiceSelect" aria-label="Voz de lectura">
+            <option value="">Voz predeterminada del dispositivo</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Velocidad: <strong id="speedLabel">1.0×</strong></span>
+          <input id="speed" type="range" min="0.6" max="1.8" step="0.1" value="1">
+        </label>
+      </div>
+
+      <div class="button-row">
+        <button id="playBtn" class="button primary" type="button" disabled>▶ Leer</button>
+        <button id="pauseBtn" class="button secondary" type="button" disabled>⏸ Pausar</button>
+        <button id="resumeBtn" class="button secondary" type="button" disabled>Continuar</button>
+        <button id="stopBtn" class="button danger" type="button" disabled>■ Detener</button>
+      </div>
+
+      <div class="page-controls">
+        <button id="prevPageBtn" class="button secondary" type="button" disabled>← Página anterior</button>
+        <span id="pageLabel">Página — de —</span>
+        <button id="nextPageBtn" class="button secondary" type="button" disabled>Página siguiente →</button>
+      </div>
+
+      <div id="readerStatus" class="reader-status" aria-live="polite">Ningún documento seleccionado.</div>
+      <article id="textPreview" class="text-preview">Selecciona un documento de la biblioteca para extraer su texto.</article>
+      <p class="footnote">La lectura usa las voces disponibles en tu dispositivo. Para una voz femenina, selecciona una voz que tu Android identifique como femenina, si está disponible. Mantén la pantalla activa durante la lectura: la reproducción con la pantalla apagada no está garantizada.</p>
+    </section>
+  </main>
+
+  <footer>Funciona con internet · Los PDF se alojan en tu repositorio de GitHub</footer>
+  <script src="./app.js"></script>
+</body>
+</html>
