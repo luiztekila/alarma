@@ -1,17 +1,17 @@
 [
   {
-    "title": "Manual de estudio PNP",
-    "description": "Material general de estudio",
-    "file": "pdfs/PROCESAL.pdf"
+    "title": Constitución Política",
+    "description": "Tema 1",
+    "file": "pdfs/01_CONSTITUCION.pdf"
   },
   {
-    "title": "Tema 1: Constitución",
-    "description": "Lectura del primer tema",
-    "file": "pdfs/CONSTITUCION.pdf"
+    "title": "Derechos Humanos",
+    "description": "Tema 2",
+    "file": "pdfs/02_DDHH.pdf"
   },
   {
-    "title": "Tema 2: Historia",
-    "description": "Lectura del segundo tema",
-    "file": "pdfs/tema-2.pdf"
+    "title": "Ley de la PNP",
+    "description": "Tema 3",
+    "file": "pdfs/03_LEYPNP.pdf"
   }
 ]
