@@ -13,5 +13,100 @@
     "title": "Ley de la PNP",
     "description": "Tema 3",
     "file": "pdfs/03_LEYPNP.pdf"
+  },
+   {
+    "title": "Ley de la Carrera",
+    "description": "Tema 4",
+    "file": "pdfs/04_LEYCARRERA"
+  },
+   {
+    "title": "Lucha Contra Corrupción",
+    "description": "Tema 5",
+    "file": "pdfs/05_LUCHACORRUPCION.pdf"
+  },
+   {
+    "title": "TEMA 6 - FALTA",
+    "description": "Tema 6",
+    "file": "pdfs/06_LEYPNP.pdf"
+  },
+   {
+    "title": "Ley de Formación",
+    "description": "Tema 7",
+    "file": "pdfs/07_LEYFORMACION.pdf"
+  },
+   {
+    "title": "Ley del TUO",
+    "description": "Tema 8",
+    "file": "pdfs/08_TUO.pdf"
+  }
+   {
+    "title": "Ley de Ascensos",
+    "description": "Tema 9",
+    "file": "pdfs/09_LEYASCENSOS.pdf"
+  },
+   {
+    "title": "Ley 27444",
+    "description": "Tema 10,
+    "file": "pdfs/10_LEY27444.pdf"
+  },
+   {
+    "title": "Código Procesal",
+    "description": "Tema 11",
+    "file": "pdfs/11_PROCESAL.pdf"
+  },
+   {
+    "title": "Código Penal",
+    "description": "Tema 12",
+    "file": "pdfs/12_CODIGOPENAL.pdf"
+  },
+   {
+    "title": "Uso de la Fuerza",
+    "description": "Tema 13",
+    "file": "pdfs/13_USOFUERZA.pdf"
+  },
+   {
+    "title": "Lucha Contra TID",
+    "description": "Tema 14",
+    "file": "pdfs/14_TID.pdf"
+  },
+ {
+    "title": "Lucha Lavado de Activos",
+    "description": "Tema 15",
+    "file": "pdfs/15_LAVADO.pdf"
+  },
+   {
+    "title": "Violencia Familiar",
+    "description": "Tema 16",
+    "file": "pdfs/16_VIOLENCIA.pdf"
+  },
+   {
+    "title": "Ley Crímen Organizado",
+    "description": "Tema 17",
+    "file": "pdfs/17_CRIMEN.pdf"
+  },
+   {
+    "title": "Protocolo de Actuación",
+    "description": "Tema 18",
+    "file": "pdfs/18_PROTOCOLO.pdf"
+  },
+   {
+    "title": "Modificación Procesal",
+    "description": "Tema 19",
+    "file": "pdfs/19_MODIFICACION_PROCESAL.pdf"
+  },
+   {
+    "title": "Ley Contra Extorsión",
+    "description": "Tema 20",
+    "file": "pdfs/20_EXTORSION.pdf"
+  },
+   {
+    "title": "DD.HH. en Función Policial",
+    "description": "Tema 21",
+    "file": "pdfs/21_DDHHPOLICIAL.pdf"
+  },
+   {
+    "title": "Desaparición de Personas",
+    "description": "Tema 22",
+    "file": "pdfs/22_DESAPARICION.pdf"
   }
 ]
