@@ -1,7 +1,17 @@
 [
   {
-    "title": "Ejemplo: cambia este registro",
-    "description": "Reemplaza este ejemplo por el nombre de uno de tus PDF.",
+    "title": "Manual de estudio PNP",
+    "description": "Material general de estudio",
     "file": "pdfs/procesal.pdf"
+  },
+  {
+    "title": "Tema 1: Constitución",
+    "description": "Lectura del primer tema",
+    "file": "pdfs/tema-1.pdf"
+  },
+  {
+    "title": "Tema 2: Historia",
+    "description": "Lectura del segundo tema",
+    "file": "pdfs/tema-2.pdf"
   }
 ]
