@@ -1,0 +1,18 @@
+{
+  "name": "Lector PDF Voz",
+  "short_name": "PDF Voz",
+  "description": "Biblioteca de PDF para escuchar en voz alta.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f6f4",
+  "theme_color": "#123c2b",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
